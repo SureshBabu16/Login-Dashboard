@@ -5,7 +5,7 @@
 
 .sidebar {
   width: 250px;
-  background-color: #4B49AC;
+  background: linear-gradient(to right, #00b4db, #0083b0);
   color: white;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,11 @@
 }
 
 .sidebar-nav li:hover {
-  background-color: #5954C7;
+  background: linear-gradient(to right, #0083b0, #00b4db);
+}
+a{
+  color:#fff;
+  text-decoration: none;
 }
 
 .main-content {
